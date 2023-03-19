@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="navigation-bar">
+        <div class="navigation-container">
+            <nav>
+                <a class="logo" href="#"> <strong>Web<span>Studio</span></strong> </a>
+                <ul class="menu list-style-none">
+                    <li class="menu-item">
+                        <a class="link current" href="./index.html">Estudio</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a class="link" href="./portfolio.html">Portafolio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="link" data-modal-open>Contactanos</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class="contact-header list-style-none">
+                <li>
+                    <a class="contact-header-item link" href="mailto:info@devstudio.com">
+                        <svg class="contact-icon">
+                            <use xlink:href="./img/icons.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-header-item link" href="tel:+525555296000 ">
+                        <svg class="contact-icon">
+                            <use xlink:href="./img/icons.svg#icon-phone"></use>
+                        </svg>
+                        +52 55 5529 6000</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="section introduction">
+            <h1 class="main-title">SOLUCIONES EFICACES PARA <br> SU NEGOCIO</h1>
+            <button class="cta-button" type="button" data-modal-open-two> Solicite nuestro servicio </button>
+        </section>
+
+        <section class="section values">
+            <div class="container">
+                <ul class="values-list list-style-none">
+                    <li class="value-list-item">
+                        <div>
+                            <svg>
+                                <use xlink:href="./img/values.svg#icon-value-1"></use>
+                            </svg>
+                        </div>
+                        <h5>ATENCIÓN A LOS DETALLES</h5>
+                        <p>Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una
+                            solución a su medida.
+                        </p>
+                    </li>
+
+                    <li class="value-list-item">
+                        <div>
+                            <svg>
+                                <use xlink:href="./img/values.svg#icon-value-2"></use>
+                            </svg>
+                        </div>
+                        <h5>PUNTUALIDAD</h5>
+                        <p>Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa:
+                            respetar su tiempo y respetar los plazos acordados.</p>
+                    </li>
+
+                    <li class="value-list-item">
+                        <div>
+                            <svg>
+                                <use xlink:href="./img/values.svg#icon-value-3"></use>
+                            </svg>
+                        </div>
+                        <h5>PLANIFICACIÓN</h5>
+                        <p>Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
+                    </li>
+
+                    <li class="value-list-item">
+                        <div>
+                            <svg>
+                                <use xlink:href="./img/values.svg#icon-value-4"></use>
+                            </svg>
+                        </div>
+                        <h5>TEGNOLOGÍA MODERNA</h5>
+                        <p>Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar
+                            los
+                            procesos laborales.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="section about-us">
+            <div class="container">
+                <h2>A qué nos dedicamos</h2>
+                <ul class="about-us-list list-style-none">
+                    <li>
+                        <img src="./img/box-1.jpg" alt="Aplicaciones de Escritorio" width="370" height="294">
+                        <div class="about-us-card">
+                            <h4>APLICACIONES DE ESCRITORIO</h4>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="./img/box-2.jpg" alt="Aplicaciones Móviles" width="370" height="294">
+                        <div class="about-us-card">
+                            <h4>APLICACIONES MÓVILES</h4>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="./img/box-3.jpg" alt="Soluciones de Diseño" width="370" height="294">
+                        <div class="about-us-card">
+                            <h4>SOLUCIONES DE DISEÑO</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section team  list-style-none">
+            <div class="container">
+                <h2>Nuestro Equipo</h2>
+                <ul class="team-list list-style-none">
+                    <li class="team-member">
+                        <img src="./img/image.jpg" width="270" height="260" alt="Foto de un miembro del equipo">
+                        <h4>Andrés Cubo</h4>
+                        <p>Diseñador de Productos</p>
+                        <ul class="sm-team-list list-style-none">
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="team-member">
+                        <img src="./img/image-1.jpg" width="270" height="260" alt="Foto de un miembro del equipo">
+                        <h4>Carla Palacios</h4>
+                        <p>Desarrolladora Frontend</p>
+                        <ul class="sm-team-list list-style-none">
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="team-member">
+                        <img src="./img/image-2.jpg" width="270" height="260" alt="Foto de un miembro del equipo">
+                        <h4>Mario Dorado</h4>
+                        <p>Marketing</p>
+                        <ul class="sm-team-list list-style-none">
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="team-member">
+                        <img src="./img/image-3.jpg" width="270" height="260" alt="Foto de un miembro del equipo">
+                        <h4>Pablo Mijangos</h4>
+                        <p>Diseñador IU</p>
+                        <ul class="sm-team-list list-style-none">
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="round-button team-button" type="button">
+                                    <svg class="icon-sm-team">
+                                        <use xlink:href="./img/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="section clients">
+            <div class="container">
+                <h2>Clientes Regulares</h2>
+                <ul class="clients-list list-style-none">
+                    <li>
+                        <svg>
+                            <use xlink:href="./img/clients.svg#icon-client-1"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="./img/clients.svg#icon-client-2"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="./img/clients.svg#icon-client-3"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="./img/clients.svg#icon-client-4"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="./img/clients.svg#icon-client-5"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg>
+                            <use xlink:href="./img/clients.svg#icon-client-6"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer class="footer-menu">
+        <div class="container-footer">
+            <section class="contact-footer">
+                <a class="logo-dark" href="#">
+                    <strong>Web<span>Studio</span></strong>
+                </a>
+                <ul class="list-style-none">
+                    <li>
+                        <address> Calz. Ticomán 500, Ciudad de <br> México, CDMX, México</address>
+                    </li>
+
+                    <li>
+                        <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+
+                    <li>
+                        <a class="footer-link" href="tel:+525555296000 ">+52 55 5529 6000</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sm-footer">
+                <h3>ENCUENTRENOS EN</h3>
+
+                <ul class="sm-list list-style-none">
+                    <li>
+                        <button class="round-button footer-button" type="button">
+                            <svg class="icon-sm">
+                                <use xlink:href="./img/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="round-button footer-button" type="button">
+                            <svg class="icon-sm">
+                                <use xlink:href="./img/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="round-button footer-button" type="button">
+                            <svg class="icon-sm">
+                                <use xlink:href="./img/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="round-button footer-button" type="button">
+                            <svg class="icon-sm">
+                                <use xlink:href="./img/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sm-footer">
+                <h3>SUSCRÍBASE al boletín informativo</h3>
+                <form>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <button type="submit" class="suscribe-button">
+                        Suscríbase
+                        <svg class="suscribe-icon">
+                            <use xlink:href="./img/icons.svg#icon-suscribe"></use>
+                        </svg>
+                    </button>
+
+                </form>
+            </section>
+
+        </div>
+
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal-window">
+            <button data-modal-close class="close" type="button">
+                <svg class="close-icon">
+                    <use xlink:href="./img/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <section class="form-container">
+
+                <form class="form">
+                    <h3>Deje sus datos, nos contactaremos con usted</h3>
+
+                    <div class="form-input">
+                        <label for="" class="form-label">
+                            Nombre
+                            <input type="text" placeholder=" " required>
+                            <svg class="icon-form">
+                                <use xlink:href="./img/icons.svg#icon-name-form"></use>
+                            </svg>
+                        </label>
+                    </div>
+
+                    <div class="form-input">
+                        <label for="" class="form-label">
+                            Teléfono
+                            <input type="tel" placeholder=" " required>
+                            <svg class="icon-form">
+                                <use xlink:href="./img/icons.svg#icon-phone-form"></use>
+                            </svg>
+                        </label>
+                    </div>
+
+                    <div class="form-input">
+                        <label for="" class="form-label">
+                            E-mail
+                            <input type="email" class="form-input-field" placeholder=" " required>
+                            <svg class="icon-form">
+                                <use xlink:href="./img/icons.svg#icon-mail-form"></use>
+                            </svg>
+                        </label>
+                    </div>
+
+                    <label class="form-label">
+                        Comentarios
+                        <textarea></textarea>
+                    </label>
+
+                    <label class="form-checkbox">
+                        <input type="checkbox" class="checkbox-input" required>
+                        <span class="checkbox">
+                            <svg class="check-icon">
+                                <use xlink:href="./img/icons.svg#icon-check"></use>
+                            </svg>
+                        </span>
+                        <span class="form-policy">
+                            Estoy de acuerdo con el boletín informativo y acepto los Términos y
+                            Condiciones
+                        </span>
+                    </label>
+
+                    <button type="submit" class="cta-button">Enviar</button>
+                </form>
+
+            </section>
+        </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+
+</body>
+
+
+</html>
